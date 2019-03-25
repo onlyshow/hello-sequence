@@ -15,6 +15,8 @@ $redis = new Predis\Client([
     'host' => '0.0.0.0',
     'port' => 9999,
 ]);
+`
 
+`
 $sequence = $redis->executeRaw(['sequence']);
 `
