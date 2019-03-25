@@ -1,0 +1,11 @@
+{
+  "require": {
+    "ext-apcu": "^5.1",
+    "ext-swoole": "^4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
