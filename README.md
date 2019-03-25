@@ -2,7 +2,7 @@
 基于snowflake算法的发号器
 
 - 安装依赖
-`pecl apcu && pecl swoole && composer install`
+`pecl install apcu && pecl install swoole && composer install`
 
 - 启动服务
 `php start.php`

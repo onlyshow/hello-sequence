@@ -3,14 +3,14 @@
 use Swoole\Redis\Server;
 
 /**
- * Class Server
+ * Class SequenceRedisServer
  *
  * @package \\${NAMESPACE}
  */
 class SequenceRedisServer
 {
     /**
-     * @var \Co\Redis\Server
+     * @var Server
      */
     private $server;
 
