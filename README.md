@@ -18,5 +18,5 @@ $redis = new Predis\Client([
 `
 
 `
-$sequence = $redis->executeRaw(['sequence']);
+$id = $redis->executeRaw(['sequence']);
 `
